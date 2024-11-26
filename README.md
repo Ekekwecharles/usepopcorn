@@ -1,70 +1,104 @@
-# Getting Started with Create React App
+# usePopCorn
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This an App for movie lovers.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Overview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This app helps you search for and find movies you like, rate them, and add them to your watched list.
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- A search bar to find your favorite movies, with results updating as you type.
+- An exceptionally well-built rating system.
+- Movies added to the watched list are persisted in local storage for the next time you open the app.
+- Seamlessly working with and manipulating API data while persisting it to other components using Context API.i
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project was built with the following technologies:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React**
+- **CSS**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `npm run eject`
+To run this project locally, follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Prerequisites
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Node.js and npm/yarn installed on your machine.
+- Clone this repository.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Install the project dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-## Learn More
+## Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Once you have installed the dependencies and started the development server, you can use the application as follows:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Running the Application
 
-### Code Splitting
+1. Start the development server:
+   ```bash
+   npm start
+   # or
+   yarn start
+   ```
+2. Open your browser and navigate to:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   ```bash
+   http://localhost:3000
+   ```
 
-### Analyzing the Bundle Size
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Contributions are welcome and appreciated! To contribute, follow these steps:
 
-### Making a Progressive Web App
+1. **Fork the repository**: Click the "Fork" button at the top of this repository to create a copy of it on your GitHub account.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+2. **Clone the repository**: Clone your forked repository to your local machine.
+   ```bash
+   git clone https://github.com/your-username/rest-countries-api.git
+   ```
+3. Create a new branch: Create a branch for your feature or bug fix.
 
-### Advanced Configuration
+   ```bash
+   git checkout -b feature-or-bugfix-name
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+4. Make changes: Add your changes or new features to the codebase.
 
-### Deployment
+5. Commit changes: Commit your changes with a meaningful commit message.
+   ```bash
+   git commit -m "Description of your changes"
+   ```
+6. Push changes: Push your changes to your forked repository.
+   ```bash
+   git push origin feature-or-bugfix-name
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Guidelines
 
-### `npm run build` fails to minify
+- Follow the coding style used in the project.
+- Write clear, concise commit messages.
+- Ensure your code passes all tests and linting checks.
+- Keep your pull requests focused and avoid mixing unrelated changes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for contributing to this project!
